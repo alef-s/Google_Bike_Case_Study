@@ -1,0 +1,8 @@
+data_files/
+.env
+zipped_files/
+.ipynb_checkpoints
+tableau/
+tableu/
+mapa.py
+
