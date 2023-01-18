@@ -171,16 +171,16 @@ customer_type	casual	member
 month		
 April	        123679	239791
 August	        350318	417074
-December	    68564	174831
-February	    20899	92021
+December	 68564	174831
+February	 20899	 92021
 January	        18069	83681
 July	        396661	407922
 June	        360809	391734
-March	        87995	190523
-May	            274280	347209
-November	    98153	231592
+March	         87995	190523
+May	        274280	347209
+November	 98153	231592
 October	        203777	341214
-September	    289682	395269
+September	289682	395269
 monthly_avg=df2.pivot_table(index='month', columns='customer_type',
                     aggfunc={'trip_duration':"mean"}) #average mothly
 
@@ -189,16 +189,16 @@ customer_type	casual	member
 month		
 April	        22.652986	11.409234
 August	        21.380588	13.268903
-December	    17.615504	10.858255
-February	    19.089989	11.006201
+December	17.615504	10.858255
+February	19.089989	11.006201
 January	        16.732084	11.065450
 July	        23.121400	13.675893
 June	        23.217188	13.780582
 March	        23.231666	11.688085
-May	            25.079277	13.209269
-November	    15.311792	10.928824
-October	1       8.353181	11.644097
-September	    19.884595	12.760785
+May	        25.079277	13.209269
+November	15.311792	10.928824
+October	1        8.353181	11.644097
+September	 19.884595	12.760785
 
 ```
 ### We can see that casual customers tend to ride longer than members but both types of customers prefer to ride longer in summer.
@@ -212,11 +212,11 @@ customer_type	casual	member
 day		
 Friday	        332619	466577
 Monday	        274142	466879
-Saturday	    465434	435047
+Saturday	465434	435047
 Sunday	        382843	381447
-Thursday	    306705	528799
+Thursday	306705	528799
 Tuesday	        257988	507782
-Wednesday	    273155	526330
+Wednesday	273155	526330
 
 daily_avg=df2.pivot_table(index='day', columns='customer_type',
                     aggfunc={'trip_duration':'mean'}) #average dayly
@@ -251,17 +251,17 @@ hourly_ticks = np.arange(24)
 	start_hour
 customer_type	casual	member
 start_hour		
-0	            45582	35465
-1	            29606	21841
-2	            18422	12609
-3	            10891	7859
-4	            7511	8817
-5	            12274	32272
-6	            28908	89787
-7	            50741	170496
-8	            68648	202208
-9	            71442	142995
-10	            92337	135038
+0	             45582	 35465
+1	             29606	 21841
+2	             18422	 12609
+3	             10891	  7859
+4	              7511	  8817
+5	             12274	 32272
+6	             28908	 89787
+7	             50741	170496
+8	             68648	202208
+9	             71442	142995
+10	             92337	135038
 11	            120373	161706
 12	            143128	186719
 13	            149304	185748
@@ -272,9 +272,9 @@ start_hour
 18	            194494	281233
 19	            148903	203406
 20	            110118	142983
-21	            94265	111883
-22	            85317	85832
-23	            63531	56245
+21	             94265	111883
+22	             85317	 85832
+23	             63531	 56245
 ```
 ## Share
 Average Daily minutes ride  |  Total Daily minutes ride
